@@ -4,9 +4,22 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "start": "nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "start:n": "nodemon",
+    "start": "tsc && node dist/app.js",
+    "build": "tsc",
+    "buildexe": "tsc && npx pkg ."
+  },
+  "bin": "dist/app.js",
+  "pkg": {
+    "assets": [
+      "node_modules/**/*",
+      "src/**/*"
+    ],
+    "targets": [
+      "node12-macos-x64",
+      "node10-win-x64"
+    ],
+    "outputPath": "bin"
   },
   "author": "",
   "license": "ISC",
@@ -21,3 +34,4 @@
     "tslib": "^2.0.0"
   }
 }
+
