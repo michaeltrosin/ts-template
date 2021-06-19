@@ -142,6 +142,9 @@
       "element",
       "app",
       "kebab-case"
-    ]
+    ],
+    "interface-name": {
+      "options": "always-prefix"
+    }
   }
 }
