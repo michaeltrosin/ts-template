@@ -16,6 +16,7 @@
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
+    "removeComments": false,
     "strict": true,
     "baseUrl": "./",
     "paths": {
