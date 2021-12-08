@@ -1,8 +1,7 @@
-import { expect } from 'chai';
-import { describe, it } from 'mocha';
+import { describe, it, expect } from '@jest/globals';
 
 describe('Sum two numbers', () => {
   it('1 + 1', () => {
-    expect(1 + 1).to.equal(2);
+    expect(1 + 1).toBe(2);
   });
 });
