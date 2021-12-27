@@ -29,7 +29,8 @@
     "node_modules",
     "dist",
     "tests",
-    "types"
+    "types",
+    "jest.config.js"
   ],
   "lib": [
     "esnext"
