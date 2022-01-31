@@ -159,5 +159,8 @@
     "plugins": [
         "prettier",
         "@typescript-eslint"
+    ],
+    "globals": [
+        "NodeJS"
     ]
 }
