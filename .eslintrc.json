@@ -160,7 +160,7 @@
         "prettier",
         "@typescript-eslint"
     ],
-    "globals": [
-        "NodeJS"
-    ]
+    "globals": {
+        "NodeJS": true
+    }
 }
